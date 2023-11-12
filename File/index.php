@@ -167,6 +167,7 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['password'])) {
                                     <div class="mb-3">
                                         <label class="col-form-label">Employee</label>
                                         <select class="form-select select2Employee" name="id" id="employee" style="width: 100%gite">
+                                        <!-- <select class="form-select" name="id" id="employee"> -->
                                         <option value="" class="form-control"  ></option>
                                             <?php
                                             $sql = "SELECT * FROM `employeee` ORDER BY id DESC";
@@ -212,7 +213,7 @@ if (!isset($_SESSION['email']) || !isset($_SESSION['password'])) {
 
 
     <script src="../../PHP/File/public/JS/script.js"></script>
-    <script src="./public/JS/homeQuery.js"></script>
+    <script src="./public/JS/home.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
 

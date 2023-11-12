@@ -128,7 +128,7 @@ $(document).ready(function () {
                 },
                 success: function (response) {
                     toastr.success("Data Delete successfully");
-                    // // $('#tableBody').empty();
+                    // $('#tableBody').empty();
                     loadData();
                 }
             });

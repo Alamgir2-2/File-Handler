@@ -190,7 +190,8 @@ $(document).ready(function () {
 })
 
 $(document).ready(function () {
-    $("#employee").select2({
+    $(".select2Employee").select2({
+        // placeholder: '#employee',
         dropdownParent: '#updateDataModal'
     });
 })
